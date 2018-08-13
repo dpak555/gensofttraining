@@ -1,2 +1,2 @@
 # gensofttraining
-Gensoft Training
+Gensoft Training Web Application
