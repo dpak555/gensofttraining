@@ -1,5 +1,15 @@
-node {
-    def mvnHome
+
+//@Library("SharedLibrary@2018.08.0")_
+//MavenPipeline()
+
+//kiran(ldap user)
+//jenkins master => slaves
+//blduser
+//blduser(service account)
+
+
+node() {
+        def mvnHome
     stage('Preparation') { // for display purposes
         // Get some code from a GitHub repository
         git 'https://github.com/kiran009/gensofttraining.git'
